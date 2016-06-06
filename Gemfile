@@ -35,6 +35,8 @@ end
 gem 'rails_12factor', group: :production
 #Add Twitter Bootsrap
 gem 'bootstrap-sass', '~>3.3.5.1'
+#Add Simple Form to generates forms 
+gem 'simple_form'
 gem 'sprockets', '2.11.0'
 
 
