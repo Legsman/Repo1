@@ -9,3 +9,4 @@ class CreateQuotes < ActiveRecord::Migration
     end
   end
 end
+
