@@ -9,6 +9,7 @@
 <body>
 <header>
   <div class="col-xs-3">
+    <%= link_to root_path, class: 'logo' do %>
     <div class="circle">
     <br />
     WORLD
@@ -17,12 +18,13 @@
     <br />
     WORDS
    </div>
+   <% end %>
   </div>
   <div class="col-xs-4 slogan">
     Generate your own quotes, and write your name in history.
   </div>
   <div class="col-xs-5 links">
-    <%= link_to 'Contribute', '#' %>
+    <%= link_to 'Contribute', new_quote_path %>
     <%= link_to 'About', '#' %>
 </header>
 <hr />
@@ -35,7 +37,7 @@
 <div class="footer">
   <div class="container">
     <div class="col-xs-6">
-      <%= link_to "Another one ?", "#", class: "next-quote" %>
+      <%= link_to "Another one ?", root_path, class: "next-quote" %>
     </div>
     <div class="col-xs-6 footer-blurb">
     By <a href=https://github.com/Legsman>Antoine Macia</a><br />
