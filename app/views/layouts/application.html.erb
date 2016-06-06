@@ -28,7 +28,20 @@
 <hr />
 <br class="clear"/>
 
+<div class="container">
 <%= yield %>
+</div>
 
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "Another one ?", "#", class: "next-quote" %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+    By <a href=https://github.com/Legsman>Antoine Macia</a><br />
+    Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a> 
+    </div>
+  </div>
+</div>
 </body>
 </html>
